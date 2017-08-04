@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="flatbuffers_main" target="1.8" />
+      <module name="flatbuffers_test" target="1.8" />
       <module name="protocolbuffers_main" target="1.8" />
       <module name="protocolbuffers_test" target="1.8" />
       <module name="protocols_main" target="1.8" />
