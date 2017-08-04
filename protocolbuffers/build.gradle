@@ -1,0 +1,26 @@
+group 'transficc'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.aeron:aeron-client:1.3.0'
+    compile 'io.aeron:aeron-driver:1.3.0'
+    compile 'org.agrona:agrona:0.9.6'
+    compile 'com.google.protobuf:protobuf-java:3.3.1'
+    testCompile 'junit:junit:4.12'
+
+}
+
+task protobufCompile(type:Exec) {
+    workingDir '.'
+    commandLine ('protobufs/protoc/bin/protoc','protobufs/codecs/codecs.proto','--proto_path=protobufs/codecs/','--java_out=src/main/java/')
+    //store the output instead of printing to the console:
+//    standardOutput = new ByteArrayOutputStream()
+}

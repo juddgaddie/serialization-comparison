@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" group="protocolbuffers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" group="protocolbuffers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" group="protocolbuffers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocols.iml" filepath="$PROJECT_DIR$/.idea/modules/protocols.iml" />
+    </modules>
+  </component>
+</project>
