@@ -1,3 +1,5 @@
+defaultTasks 'build','protocolbuffers:generateClasses', 'flatbuffers:generateClasses'
+
 allprojects {
     group 'transficc'
     version '1.0-SNAPSHOT'

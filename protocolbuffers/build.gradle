@@ -18,7 +18,7 @@ dependencies {
 
 }
 
-task protobufCompile(type:Exec) {
+task generateClasses(type:Exec) {
     workingDir '.'
     commandLine ('protobufs/protoc/bin/protoc','protobufs/codecs/codecs.proto','--proto_path=protobufs/codecs/','--java_out=src/main/java/')
     //store the output instead of printing to the console:

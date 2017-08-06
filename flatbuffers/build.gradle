@@ -11,9 +11,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-task flatBuffersCompile(type:Exec) {
+task generateClasses(type:Exec) {
     workingDir 'src/main/java'
-    commandLine ('../../../schema/flatc','--java','../../../schema/monstor.fbs')
+    commandLine ('../../../schema/flatc','--java','../../../schema/monstor.idl')
     //store the output instead of printing to the console:
 //    standardOutput = new ByteArrayOutputStream()
 }
