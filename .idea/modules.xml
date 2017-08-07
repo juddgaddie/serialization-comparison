@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto.iml" group="capnproto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto.iml" group="capnproto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto_main.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto_main.iml" group="capnproto" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto_main.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto_main.iml" group="capnproto" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto_test.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto_test.iml" group="capnproto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capnproto/capnproto_test.iml" filepath="$PROJECT_DIR$/.idea/modules/capnproto/capnproto_test.iml" group="capnproto" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers.iml" filepath="$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers.iml" group="flatbuffers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers_main.iml" group="flatbuffers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/flatbuffers/flatbuffers_test.iml" group="flatbuffers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" group="protocolbuffers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" group="protocolbuffers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" group="protocolbuffers" />

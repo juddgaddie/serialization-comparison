@@ -1,4 +1,4 @@
 rootProject.name = 'protocols'
 include ':protocolbuffers'
-include ':protocolbuffers'
+include ':flatbuffers'
 include ':capnproto'

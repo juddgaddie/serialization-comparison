@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":capnproto:main" external.linked.project.path="$MODULE_DIR$/../../../capnproto" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="transficc" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../capnproto/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../capnproto/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../capnproto/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../capnproto/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.capnproto:runtime:0.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.aeron:aeron-client:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.aeron:aeron-driver:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.agrona:agrona:0.9.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.8.0" level="project" />
+  </component>
+</module>
