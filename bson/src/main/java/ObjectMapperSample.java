@@ -17,9 +17,10 @@ public class ObjectMapperSample {
         ObjectMapper mapper = new ObjectMapper(new BsonFactory());
         mapper.writeValue(baos, bob);
 
+        byte[] buffer = baos.toByteArray();
+
         //deserialize data
-        ByteArrayInputStream bais = new ByteArrayInputStream(
-                baos.toByteArray());
+        ByteArrayInputStream bais = new ByteArrayInputStream(buffer);
         Person clone_of_bob = mapper.readValue(bais, Person.class);
 
         assertThat(bob.getName()).isEqualTo(clone_of_bob.getName());
