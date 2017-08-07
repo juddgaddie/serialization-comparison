@@ -4,6 +4,7 @@
     <output url="file://$MODULE_DIR$/../../../capnproto/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../capnproto/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../capnproto/src/main/generated" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../capnproto/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../capnproto/src/main/resources" type="java-resource" />
     </content>

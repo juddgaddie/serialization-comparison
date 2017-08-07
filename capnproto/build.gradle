@@ -2,6 +2,15 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/main/generated']
+        }
+    }
+}
+
+
 dependencies {
     compile 'org.capnproto:runtime:0.1.2'
 
@@ -12,9 +21,18 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-task generateClasses(type:Exec) {
+task createDirs() {
+    new File(project.projectDir, 'src/main/generated').mkdirs()
+}
+
+
+//capnp must be installed globally in /usr/local/bin/capnp
+//TODO: compile generated classes.
+task generateClasses(type:Exec){
+    dependsOn createDirs
     workingDir 'src/main/java'
-    commandLine ('../../../schema/flatc','--java','../../../schema/monstor.idl')
+    commandLine ('ls', '-l')
     //store the output instead of printing to the console:
 //    standardOutput = new ByteArrayOutputStream()
 }
+
