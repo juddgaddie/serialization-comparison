@@ -1,4 +1,4 @@
-defaultTasks 'build','protocolbuffers:generateClasses', 'flatbuffers:generateClasses'
+defaultTasks 'build','protocolbuffers:generateClasses', 'flatbuffers:generateClasses', 'sbe:generateClasses'
 
 allprojects {
     group 'transficc'
@@ -8,5 +8,8 @@ allprojects {
 
 subprojects {
     apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
 }
 

@@ -11,7 +11,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers.iml" group="protocolbuffers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_main.iml" group="protocolbuffers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocolbuffers/protocolbuffers_test.iml" group="protocolbuffers" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocols.iml" filepath="$PROJECT_DIR$/.idea/modules/protocols.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sbe/sbe.iml" filepath="$PROJECT_DIR$/.idea/modules/sbe/sbe.iml" group="sbe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sbe/sbe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sbe/sbe_main.iml" group="sbe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sbe/sbe_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sbe/sbe_test.iml" group="sbe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serialization-comparison.iml" filepath="$PROJECT_DIR$/.idea/modules/serialization-comparison.iml" />
     </modules>
   </component>
 </project>

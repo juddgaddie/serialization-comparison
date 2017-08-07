@@ -1,4 +1,5 @@
-rootProject.name = 'protocols'
+rootProject.name = 'serialization-comparison'
 include ':protocolbuffers'
 include ':flatbuffers'
 include ':capnproto'
+include ':sbe'

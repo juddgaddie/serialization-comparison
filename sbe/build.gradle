@@ -1,0 +1,33 @@
+dependencies {
+    compile 'uk.co.real-logic:sbe-tool:1.7.0'
+}
+
+File protocolPath = new File("com/transficc/protocol/generated/")
+
+
+task generateClasses (type:JavaExec) {
+    main = 'uk.co.real_logic.sbe.SbeTool'
+    classpath = configurations.compile
+    systemProperties(
+            'sbe.output.dir': 'src/main/java',
+            'sbe.java.generate.interfaces': 'true',
+            'sbe.target.language': 'Java',
+            'sbe.validation.stop.on.error': 'true')
+    args = ['src/main/resources/example-schema.xml', 'src/main/resources/example-extension-schema.xml']
+}
+
+task removeOldClasses(type: Delete) {
+    File file = new File('src/main/java', protocolPath.path)
+    println 'Deleting..' + file.absolutePath
+    delete file
+}
+
+generateClasses.dependsOn {
+    removeOldClasses
+}
+
+
+
+compileJava.dependsOn {
+    generateClasses
+}

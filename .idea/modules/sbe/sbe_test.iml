@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":sbe:test" external.linked.project.path="$MODULE_DIR$/../../../sbe" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="transficc" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../sbe/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../sbe/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../sbe/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../sbe/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="sbe_main" />
+    <orderEntry type="library" name="Gradle: uk.co.real-logic:sbe-tool:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.agrona:agrona:0.9.6" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="sbe_main" />
+</module>
