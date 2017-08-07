@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="capnproto_main" target="1.8" />
+      <module name="capnproto_test" target="1.8" />
       <module name="flatbuffers_main" target="1.8" />
       <module name="flatbuffers_test" target="1.8" />
       <module name="protocolbuffers_main" target="1.8" />
