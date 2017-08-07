@@ -1,0 +1,5 @@
+dependencies {
+    compile 'de.undercouch:bson4jackson:2.7.0'
+    compile 'org.assertj:assertj-core:3.8.0'
+
+}
