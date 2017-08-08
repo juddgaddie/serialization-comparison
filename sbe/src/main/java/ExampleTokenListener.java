@@ -42,11 +42,13 @@ public class ExampleTokenListener implements TokenListener
 
     public void onBeginMessage(final Token token)
     {
+        System.out.println("onBeginMessage");
         namedScope.push(token.name() + ".");
     }
 
     public void onEndMessage(final Token token)
     {
+        System.out.println("onEndMessage");
         namedScope.pop();
     }
 
