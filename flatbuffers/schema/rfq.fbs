@@ -1,0 +1,22 @@
+namespace com.transficc.rfq.generated;
+enum Side:byte { NotSet = 0, Buy = 1, Sell = 2 }
+//union Equipment { Weapon } // Optionally add more tables.
+//struct Vec3 {
+//  x:float;
+//  y:float;
+//  z:float;
+//}
+table Rfq {
+  requestId:string;
+  noOfDealers:short = 0;
+  friendly:bool = false (deprecated);
+  legs:[Leg];   // Vector of tables.
+}
+table Leg {
+  referenceId:string;
+  instrumentId:string;
+  settlementDateInMillis:long;
+  side:Side;
+  quantity:double;
+}
+root_type Rfq;

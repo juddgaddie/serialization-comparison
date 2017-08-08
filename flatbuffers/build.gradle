@@ -12,9 +12,11 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+def outputPath = new File(project.projectDir, "src/main/java").getAbsolutePath()
+def schemaDir = new File(project.projectDir, "schema").getAbsolutePath()
 task generateClasses(type:Exec) {
-    workingDir 'src/main/java'
-    commandLine ('../../../schema/flatc','--java','../../../schema/monstor.idl')
+    workingDir schemaDir
+    commandLine ('./flatc','-o', outputPath,'--java', 'rfq.fbs', 'monstor.fbs' )
     //store the output instead of printing to the console:
 //    standardOutput = new ByteArrayOutputStream()
 }
