@@ -13,7 +13,8 @@ task generateClasses (type:JavaExec) {
             'sbe.java.generate.interfaces': 'true',
             'sbe.target.language': 'Java',
             'sbe.validation.stop.on.error': 'true')
-    args = ['src/main/resources/example-schema.xml', 'src/main/resources/example-extension-schema.xml', 'src/main/resources/example-rfq.xml']
+    args = ['src/main/resources/example-schema.xml', 'src/main/resources/example-extension-schema.xml',
+            'src/main/resources/example-rfq.xml', 'src/main/resources/example-map.xml']
 }
 
 task removeOldClasses(type: Delete) {

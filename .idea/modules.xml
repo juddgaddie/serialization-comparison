@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/amqp/amqp.iml" filepath="$PROJECT_DIR$/.idea/modules/amqp/amqp.iml" group="amqp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/amqp/amqp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/amqp/amqp_main.iml" group="amqp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/amqp/amqp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/amqp/amqp_test.iml" group="amqp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bson/bson.iml" filepath="$PROJECT_DIR$/.idea/modules/bson/bson.iml" group="bson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bson/bson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bson/bson_main.iml" group="bson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bson/bson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bson/bson_test.iml" group="bson" />

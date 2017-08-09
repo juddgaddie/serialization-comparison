@@ -1,0 +1,3 @@
+dependencies {
+    compile 'org.apache.qpid:apache-qpid-proton-j:0.20.0'
+}
